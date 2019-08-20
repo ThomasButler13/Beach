@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #101010;
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image:url(https://4.bp.blogspot.com/-p5_rEvOU-nQ/T8hIu_-wc_I/AAAAAAAAApg/DQkzQ_TO964/s1600/stock_photo_beach-9.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0,20px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #101010;
+    border: #101010 1px solid;
+    padding: 10px, 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase .button:hover{
+    background: #101010;
+    color:#fff;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+#section-a{
+    padding:20px;
+    background-color: gray;
+    text-align: center;
+    text-decoration-color: #fff;
+}
+
+#section-b{
+    padding:20px;
+    text-align: center;
+}
+
+#section-c{
+    padding:20px;
+    text-align: center;
+}
+
+#section-d{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    background-color: gray;
+    text-align: center;
+    text-decoration-color: #fff;
+}
+
